@@ -1,0 +1,9 @@
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+http://maven.apache.org/download.cgi
+unzip apache-maven-3.3.3-bin.zip -d /usr/share/java/
+unlink /usr/share/maven ( if it is already installed)
+ln -s /usr/share/java/apache-maven-3.3.3 /usr/share/maven
+export PATH=$PATH:/usr/share/maven/bin
+export M2_HOME=/usr/share/maven
+mvn -version
