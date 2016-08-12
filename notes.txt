@@ -7,3 +7,5 @@ ln -s /usr/share/java/apache-maven-3.3.3 /usr/share/maven
 export PATH=$PATH:/usr/share/maven/bin
 export M2_HOME=/usr/share/maven
 mvn -version
+
+mvn package
