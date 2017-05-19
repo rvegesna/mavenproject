@@ -1,11 +1,11 @@
 package net.systemshub;
 
 public class User {
-public String name,password,email;
+public String names,password,email;
 
 public User(){}
-public void setname (String name){
-        this.name= name;
+public void setname (String names){
+        this.name= names;
         }
 public void setpassword(String password){
         this.password=password;
@@ -17,7 +17,7 @@ public void setemail(String email){
 }
 
 public String getname(){
-        return name;
+        return names;
 
 }
 public String getpassword(){
